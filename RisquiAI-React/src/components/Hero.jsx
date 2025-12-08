@@ -41,7 +41,7 @@ const Hero = () => {
                 <a className='border border-[#2a2a2a] py-2 sm:py-3 px-6
                 sm:px-2 rounded-full sm:text-lg text-sm font-semibold
                 tracking-wider transition-all duration-300
-                hover:bg-[#1a1a1a] bg-orange-400 text-black 
+                hover:bg-[#1a1a1a] bg-orange-500 text-orange-100 
                 hover:text-white' href='#dashboard-section'>
                     Continue To Dashboard
                 </a>

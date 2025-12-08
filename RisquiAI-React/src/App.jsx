@@ -2,47 +2,49 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Dashboard from "./components/Dashboard/Dashboard";
 import SideBar from "./components/Sidebar/SideBar";
+import About from "./components/About/About";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
 export default function App() {
     useEffect(() => {
-    AOS.init({ duration: 1500, once: true });
+      AOS.init({ duration: 1500, once: true });
 
-    const hero = document.getElementById("hero-section");
-    const dashboard = document.getElementById("dashboard-section");
-    const about = document.getElementById("about-section");
+      const hero = document.getElementById("hero-section");
+      const about = document.getElementById("about-section");
+      const dashboard = document.getElementById("dashboard-section");
 
-    // 1) When HERO exits → scroll to Dashboard
-    const heroObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry.isIntersecting) {
-          dashboard?.scrollIntoView({ behavior: "smooth" });
-        }
-      },
-      { threshold: 0.1 }
-    );
+      // 1) When HERO exits → scroll to ABOUT
+      const heroObserver = new IntersectionObserver(
+        ([entry]) => {
+          if (!entry.isIntersecting) {
+            about?.scrollIntoView({ behavior: "smooth" });
+          }
+        },
+        { threshold: 0.1 }
+      );
 
-    // 2) When DASHBOARD exits downward → scroll to About
-    const dashObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry.isIntersecting && entry.boundingClientRect.top < 0) {
-          // Only trigger when scrolling down, not up
-          about?.scrollIntoView({ behavior: "smooth" });
-        }
-      },
-      { threshold: 0.1 }
-    );
+      // 2) When ABOUT exits downward → scroll to DASHBOARD
+      const aboutObserver = new IntersectionObserver(
+        ([entry]) => {
+          // only trigger on scrolling downward
+          if (!entry.isIntersecting && entry.boundingClientRect.top < 0) {
+            dashboard?.scrollIntoView({ behavior: "smooth" });
+          }
+        },
+        { threshold: 0.1 }
+      );
 
-    if (hero) heroObserver.observe(hero);
-    if (dashboard) dashObserver.observe(dashboard);
+      if (hero) heroObserver.observe(hero);
+      if (about) aboutObserver.observe(about);
 
-    return () => {
-      heroObserver.disconnect();
-      dashObserver.disconnect();
-    };
-  }, []);
+      return () => {
+        heroObserver.disconnect();
+        aboutObserver.disconnect();
+      };
+    }, []);
+
 
   
   return (
@@ -58,9 +60,10 @@ export default function App() {
                   shadow-[0_0_900px_20px_#e99b63] 
                   -rotate-[40deg] z-0"
       />
-
       <Header/>
-      <Hero/>
+      <div><Hero/></div>
+
+      <div><About/></div>
    <div className="w-full flex justify-center">
           <div className="flex w-full max-w-7xl gap-6 px-6 py-10"
            data-aos="fade-up">
