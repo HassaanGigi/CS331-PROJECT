@@ -1,24 +1,46 @@
-import React from 'react'
+// Select.tsx
+import React from "react";
 
-const Select = () => {
-  return (
-    <div className='space-y-1'>
-        <Route selected={false} title={"Risk Assessment"}/>
-        <Route selected={false} title={"Track Products"}/>
-        <Route selected={false} title={"Categories"}/>
-        <Route selected={false} title={"APIs list"}/>
-        <Route selected={false} title={"About Model"}/>
-        </div>
-  )
+interface SelectProps {
+  selectedTab: string;
+  onTabClick: (tab: string) => void;
 }
 
-const Route = ({
-  selected,
-  title,
-}: {
+const Select: React.FC<SelectProps> = ({ selectedTab, onTabClick }) => {
+  return (
+    <div className="space-y-1">
+      <Route
+        selected={selectedTab === "Risk Assessment"}
+        title="Risk Assessment"
+        onClick={() => onTabClick("Risk Assessment")}
+      />
+      <Route
+        selected={selectedTab === "Track Products"}
+        title="Track Products"
+        onClick={() => onTabClick("Track Products")}
+      />
+      <Route
+        selected={selectedTab === "Categories"}
+        title="Categories"
+        onClick={() => onTabClick("Categories")}
+      />
+      <Route
+        selected={selectedTab === "About Model"}
+        title="About Model"
+        onClick={() => onTabClick("About Model")}
+      />
+    </div>
+  );
+};
+
+interface RouteProps {
   selected: boolean;
   title: string;
-}) => {
+  onClick: () => void;
+}
+
+// Route is internal to this file, no need to export
+const Route: React.FC<RouteProps> = ({ selected, title, onClick }) => {
   return (
     <button
       className={`
@@ -30,10 +52,11 @@ const Route = ({
             : "hover:bg-stone-200 bg-transparent text-stone-500 shadow-none"
         }
       `}
+      onClick={onClick}
     >
       <span>{title}</span>
     </button>
   );
 };
 
-export default Select
+export default Select;
