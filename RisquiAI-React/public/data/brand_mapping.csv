@@ -1,0 +1,402 @@
+code,brand
+0,2nd To None
+1,AERIN
+2,ALFRED SUNG
+3,ALT Fragrances
+4,AS  SHOWN
+5,AS PHOTOS
+6,AS PICTURE SHOWN
+7,AS SHOW
+8,AS SHOWN
+9,ASST
+10,AXE
+11,Abercrombie & Fitch
+12,Acqua Di Gio
+13,Acqua di Parma
+14,Adam Levine
+15,Aeropostale
+16,Afnan
+17,Ainash Perfums
+18,Al Haramain
+19,Al Rehab
+20,Al Wataniah
+21,Al-Rehab
+22,Alexandria Fragrances
+23,Alfred Sung
+24,Allsaints
+25,Amouage
+26,Anna Sui
+27,Aquolina
+28,Arabian Oud
+29,Aramis
+30,Ard Al Zaafaran
+31,Ariana Grande
+32,Armaf
+33,Armand Dupree Fuller
+34,As Picture Show
+35,As Picture Shown
+36,As Show
+37,As Shown
+38,As picture show
+39,As shown
+40,Assorted
+41,Atelier Cologne
+42,Atlantic
+43,Avon
+44,Azzaro
+45,BHARARA
+46,BOD man
+47,BRUT
+48,BURBERRY
+49,BYREDO
+50,Baby Phat
+51,Banana Republic
+52,Baron
+53,Bath & Body Works
+54,Bellie Eilish
+55,Benetton
+56,Bentley
+57,Bharara
+58,Blue Perfumes
+59,Bond No. 9
+60,Boucheron
+61,Branded
+62,Britney Spears
+63,Brut
+64,Burberry
+65,Bvlgari
+66,By Al Hambra
+67,Byredo
+68,C.K
+69,CHANEL
+70,CHANGE For Women
+71,CHRISTIAN DIOR
+72,CURVE
+73,Cacharel
+74,Calvin Klein
+75,Carolina Herrera
+76,Cartier
+77,Chaka by Chaka Khan
+78,Chanel
+79,Chloe
+80,Chloé
+81,Chopard
+82,Christian Audigier
+83,Christian Dior
+84,Classic Brands
+85,Classic Erotica
+86,Claude Marsal
+87,Clean
+88,Clinique
+89,Clive Christian
+90,Clubman Pinaud
+91,Coach
+92,Cologne
+93,Coty
+94,Coty Inc.
+95,Creed
+96,Cuba
+97,DKNY
+98,Daddy Yankee
+99,Dana
+100,David Beckham
+101,Davidoff
+102,Designer Series
+103,Diesel
+104,Dior
+105,Does not apply
+106,Dolce & Gabbana
+107,Dolce Gabbana
+108,Dolce&Gabbana
+109,Donna Karan
+110,Dossier
+111,Dumont
+112,Dvyne Fragrances
+113,EBC
+114,ESCADA
+115,EX NIHILO
+116,Ed Hardy
+117,El Ganso
+118,Elie Saab
+119,Elixir
+120,Elizabeth & James
+121,Elizabeth And James Nirvana
+122,Elizabeth Arden
+123,Elizabeth Taylor
+124,Ellis Brooklyn
+125,Emanuelle Ungaro
+126,Emporio Armani
+127,English Laundry
+128,Escada
+129,Estee Lauder
+130,Estée Lauder
+131,Evyan
+132,FC
+133,FLOWER
+134,FM
+135,Falic Fashion Group
+136,Five Star Fragrance
+137,Fragonard
+138,Fragrance Couture
+139,Fragrance World
+140,Franck Olivier
+141,Fred Hayman
+142,Frederic Malle
+143,Fuller Armand Dupree
+144,GIORGIO ARM.ANI
+145,GIORGIO BEVERLY HILLS
+146,GIVENCHY
+147,GUERLAIN PARIS
+148,GUESS
+149,Gap
+150,Generic
+151,Gianni Versace
+152,Giardini Di Toscana
+153,Giorgi^o Armani
+154,Giorgio Arm.ani
+155,Giorgio Armani
+156,Giorgio Beverly Hills
+157,Giorgio² Armani
+158,Givenchy
+159,Gloria Vanderbilt
+160,Gloss Moderne
+161,Glossier
+162,Grandeur
+163,Gucci
+164,Guerlain
+165,Guy Laroche
+166,Gwen Stefani
+167,HERMÈS
+168,HINODE
+169,HUGO BOSS
+170,Halloween
+171,Halston
+172,Hanae Mori
+173,Have A Scent
+174,Heaven Scents
+175,Hermes
+176,Hollister
+177,Houbigant
+178,Huda Beauty
+179,Huda Beauty Kayali
+180,Hugo Boss
+181,Hybrid & Company
+182,ISSEY MIYAKE
+183,Issey Miyake
+184,J Lo
+185,J. Del Pozo
+186,JLO
+187,Jacques Bogart
+188,Jaguar
+189,Jean Paul Gaultier
+190,Jean couturier
+191,Jeanne Arthes
+192,Jennifer Lopez
+193,Jessica McClintock
+194,Jessica Simpson
+195,Jil Sander
+196,Jimmy Choo
+197,Jo Malone
+198,John Varvatos
+199,Joop
+200,Jovan
+201,Juicy Couture
+202,Juliette Has A Gun
+203,Juliette Has a Gun
+204,Juliette has a gun
+205,Justin Bieber
+206,KENZO
+207,KING OF KINGS
+208,Karl Lagerfeld
+209,Kate Spade
+210,Kate Spade New York
+211,Katy Perry
+212,Kenneth Cole
+213,Kenneth Cole Reaction
+214,Khadlaj
+215,Kilian
+216,Kim Kardashian
+217,King
+218,L'Artisan
+219,LANCOME
+220,LLURE SX
+221,Lacoste
+222,Lake&skye
+223,Lalique
+224,Lancome
+225,Lancôme
+226,Lanvin
+227,Lapidus
+228,Lattafa
+229,Lattafa Perfumes
+230,Lauren Ralph Lauren
+231,Le Labo
+232,Limited Edition
+233,Liz Claiborne
+234,Lolita Lempicka
+235,Lomani
+236,Louis Vuitton
+237,Lucianno
+238,Lucky
+239,Luxury
+240,L’OCCITANE
+241,MACARENA
+242,MAISON ALHAMBRA
+243,MEM
+244,MFK
+245,MONT BLANC LEGEND
+246,MONTALE
+247,Maison
+248,Maison Alhambra
+249,Maison Francis Kurkdjian
+250,Maison Margiela
+251,Maison Martin Margiela
+252,Mancera
+253,Mandarin Duck
+254,Marc Jacobs
+255,Marilyn Miglin
+256,Mary Kay
+257,Mercedes Benz
+258,Mercedes-Benz
+259,MetaHerbal Labs
+260,Michael Jordan
+261,Michael Kors
+262,Michael Malul
+263,Michael Malul Gents Scents
+264,Michael Malul London
+265,Michel Germain
+266,Miim Miic
+267,Milestone Perfumes
+268,Miraclelayer
+269,Mirage Brands
+270,Missoni
+271,Mont Blanc
+272,MontBlanc
+273,Montale
+274,Montblanc
+275,Moschino
+276,Multiple Brands
+277,Myrurgia
+278,M·A·C
+279,NIKOS
+280,Narciso Rodriguez
+281,Natalie
+282,Nautica
+283,Nest
+284,Nina Ricci
+285,Old Spice
+286,One Direction
+287,Oscar de la Renta
+288,Ouai
+289,PHLUR
+290,PINK
+291,PRADA
+292,Pacifica
+293,Paco Rabanne
+294,Paloma Picasso
+295,Parfum
+296,Parfums
+297,Parfums Gres
+298,Parfums Grès
+299,Parfums de Marly
+300,Paris Hilton
+301,Paul Sebastian
+302,Penhaligon's
+303,Perfume
+304,Perfumer's Workshop
+305,Perry Ellis
+306,Pheromones
+307,Phillips-Van Heusen
+308,Philosophy
+309,Pierre Cardin
+310,Pink sugar
+311,Pleasing
+312,Polo
+313,Polo Ralph Lauren
+314,Prada
+315,Preferred Fragrance
+316,Prince Matchabelli
+317,Pure Romance
+318,QRC
+319,REYANE TRADITION
+320,Ralph Lauren
+321,Rasasi
+322,RawChemistry
+323,Revlon
+324,Reyane Tradition
+325,Rihanna
+326,Robert Piguet
+327,Roberto Cavalli
+328,Rochas
+329,Roja
+330,Roja Dove
+331,Roja Parfums
+332,SECERTMU
+333,SEE PHOTO
+334,Sabrina Carpenter
+335,Salvatore Ferragamo
+336,Sarah Jessica Parker
+337,Sean John
+338,Sisley
+339,Snif
+340,Sol De Janeiro
+341,Spiritual Sky
+342,Sterling
+343,Superz Budapest
+344,T.O.V.A.
+345,TF
+346,Taylor Swift
+347,Ted Lapidus
+348,Territoire
+349,The Baron
+350,The Body Shop
+351,Thierry Mugler
+352,Tiffany
+353,Tiffany & Co.
+354,Tiziana Terenzi
+355,Tom Ford
+356,Tommy Bahama
+357,Tommy Hilfiger
+358,Topshelf
+359,Tory Burch
+360,Tous
+361,Tru Fragrance
+362,True Religion
+363,ULTA
+364,UOMO
+365,Ulric de Varens
+366,Unbranded
+367,United Colors of Benetton
+368,Urban Outfitters
+369,VICTOR MANUELLE
+370,Valentino
+371,Vera Wang
+372,Versace
+373,Vicki Tiel
+374,Victor & Rolf
+375,Victoria's Secret
+376,Viktor & Rolf
+377,Vilhelm Parfumerie
+378,Vince Camuto
+379,Xerjoff
+380,YSL
+381,Yardley London
+382,Yves Saint Laurent
+383,Yves de Sistelle
+384,Zara
+385,adidas
+386,al hambra
+387,aladdin
+388,as showed
+389,diptyque
+390,dossier
+391,emper
+392,fragance one
+393,fragrance
+394,king of kings
+395,love luxe beauty
+396,rue21
+397,united scents
+398,ysl
+399,~ CREPE ERASE ~
+400,~ DOLCE & GABBANA ~
