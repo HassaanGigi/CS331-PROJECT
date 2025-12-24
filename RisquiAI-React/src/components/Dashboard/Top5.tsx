@@ -64,18 +64,35 @@ export const Top5 = () => {
           <FiBarChart2 /> {label}
         </div>
         {data.length > 0 ? (
-          <ResponsiveContainer width="100%" height={350}>
+          <ResponsiveContainer width="100%" height={360}>
             <BarChart
               data={data}
               layout="vertical"
               margin={{ top: 20, right: 20, left: 150, bottom: 20 }}
             >
-              <CartesianGrid strokeDasharray="3 3" />
+              <CartesianGrid strokeDasharray="3 3" stroke="#e6e6e6" />
               <XAxis type="number" domain={[0, 10]} />
+              <XAxis
+                type="number"
+                domain={[0, "dataMax"]}
+                tick={{ fill: "#475569", fontSize: 12 }}
+                tickFormatter={(v) => (typeof v === "number" ? v.toFixed(0) : v)}
+              />
               <YAxis dataKey="name" type="category" width={220} />
+              <YAxis
+                dataKey="name"
+                type="category"
+                width={220}
+                tick={{ fill: "#0f172a", fontSize: 13 }}
+              />
               <Tooltip formatter={(value: number) => value.toFixed(2)} />
               <Legend />
-              <Bar dataKey="score" fill="#ea580c" /> {/* Tailwind orange-500 */}
+              <Bar
+                dataKey="score"
+                fill={label.toLowerCase().includes("men") ? "#0ea5e9" : "#fb7185"}
+                radius={[8, 8, 8, 8]}
+                barSize={18}
+              />
             </BarChart>
           </ResponsiveContainer>
         ) : (
